@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Класс",
+  "name": "IISIvayyvaКлассE",
+  "className": "КлассE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ivayyva-класс",
+      "modelProjection": "КлассE"
+    }
+  ]
+}

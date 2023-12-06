@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Класс",
+      "projection": "КлассL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Дом",
+  "name": "IISIvayyvaДомE",
+  "className": "ДомE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ivayyva-дом",
+      "modelProjection": "ДомE"
+    }
+  ]
+}

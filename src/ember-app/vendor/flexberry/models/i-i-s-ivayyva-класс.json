@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISIvayyvaКласс",
+  "modelName": "i-i-s-ivayyva-класс",
+  "className": "Класс",
+  "nameSpace": "IIS.Ivayyva",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "действие",
+      "type": "i-i-s-ivayyva-t-действие",
+      "flexberryType": "tДействие",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлассE",
+      "modelName": "i-i-s-ivayyva-класс",
+      "attrs": [
+        {
+          "name": "действие",
+          "caption": "Действие",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлассL",
+      "modelName": "i-i-s-ivayyva-класс",
+      "attrs": [
+        {
+          "name": "действие",
+          "caption": "Действие",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

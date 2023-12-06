@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISIvayyvaДом",
+  "modelName": "i-i-s-ivayyva-дом",
+  "className": "Дом",
+  "nameSpace": "IIS.Ivayyva",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "тип",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "класс",
+      "relatedTo": "i-i-s-ivayyva-класс",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДомE",
+      "modelName": "i-i-s-ivayyva-дом",
+      "attrs": [
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Действие",
+          "lookupValueField": "действие",
+          "relationName": "Класс",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "действие",
+              "caption": "Действие",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Класс",
+          "name": "класс",
+          "relatedTo": "i-i-s-ivayyva-класс",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ДомL",
+      "modelName": "i-i-s-ivayyva-дом",
+      "attrs": [
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Класс",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "действие",
+              "caption": "Действие",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Действие",
+          "name": "класс",
+          "relatedTo": "i-i-s-ivayyva-класс",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

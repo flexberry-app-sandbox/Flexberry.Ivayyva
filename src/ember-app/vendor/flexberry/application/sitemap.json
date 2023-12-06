@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Ivayyva",
+  "applicationTitle": "Ivayyva",
+  "items": [
+    {
+      "link": null,
+      "menuName": "ivayyva",
+      "caption": "Ivayyva",
+      "title": "Ivayyva",
+      "children": [
+        {
+          "link": "i-i-s-ivayyva-дом-l",
+          "menuName": null,
+          "caption": "Дом",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ivayyva-класс-l",
+          "menuName": null,
+          "caption": "Класс",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
